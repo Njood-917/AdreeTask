@@ -11,8 +11,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-
-
 public class TestDataLoader {
     public static List<Map<String, String>> loadJSON(String filePath) {
         ObjectMapper mapper = new ObjectMapper();
