@@ -21,6 +21,7 @@ public class GetBookId extends BaseUrl {
                 .statusCode(200)
                 .extract().response();
 
+
         //Assertions
         Assert.assertEquals(response.statusCode(),200);
         String bookName = response.jsonPath().getString("name");
